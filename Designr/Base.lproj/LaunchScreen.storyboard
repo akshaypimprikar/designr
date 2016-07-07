@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -25,8 +24,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2016 Akshay Pimprikar." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="LyU-ML-LhI">
-                                <rect key="frame" x="159" y="559" width="283" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="159" y="556" width="283" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="283" id="ylK-i5-a1a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -36,8 +38,7 @@
                             <constraint firstItem="Mix-D1-s2d" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6WA-i5-BxS"/>
                             <constraint firstItem="Mix-D1-s2d" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8ff-GR-Xns"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="LyU-ML-LhI" secondAttribute="bottom" constant="20" id="LT6-RM-HGg"/>
-                            <constraint firstItem="LyU-ML-LhI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dQo-4l-9V4"/>
-                            <constraint firstItem="LyU-ML-LhI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="139" id="sze-kX-q0T"/>
+                            <constraint firstItem="LyU-ML-LhI" firstAttribute="centerX" secondItem="Mix-D1-s2d" secondAttribute="centerX" id="Mep-SU-paG"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -62,7 +62,7 @@ class DesignerListViewController: UITableViewController {
         if designersList.count > 0 {
             cell.textLabel?.text = designersList[indexPath.row]
             let button : UIButton = UIButton(type: UIButtonType.ContactAdd)
-            button.frame = CGRectMake(315, 11, 22, 22)
+            button.frame = CGRectMake(325, 11, 22, 22)
             button.tag = indexPath.row
             button.addTarget(self, action: #selector(DesignerListViewController.buttonClicked(_:)), forControlEvents: UIControlEvents.TouchUpInside)
             cell.addSubview(button)
