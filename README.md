@@ -1,5 +1,7 @@
 # designr
 
+Open the project through Designr.xcworkspace. Run 'pod install' before running the Xcode project.
+
 Designr app shows you an alphabetically combined list of designers obtained from the following JSON endpoints
 
     http://static.sqvr.co/designer-accesories.json
